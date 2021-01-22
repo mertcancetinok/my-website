@@ -1,0 +1,198 @@
+@import "compass/css3";
+
+html,body,main {
+  height: 100%
+}
+body{
+    background-color: #0D0D0D;
+    position: relative;
+}
+
+
+h1, h3, h5, p, i, a, label{
+    color: #F2F2F2;
+}
+#particles-js{
+    height: 100%;
+    width: 100%;
+    background-color: #0d0d0d;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+}
+nav{
+    border-radius: 70px;
+}
+.nav2{
+    position: absolute;
+    top: 0;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.nav-icon{
+    z-index: 5;
+    position: absolute;
+    top: 80;
+    
+    padding:10px;
+}
+#menu
+{
+    display: none;
+    position: relative;
+    border-radius: 0;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    background-color: #fff;
+}
+
+#menu li {
+    position: relative;
+    top: 20%;
+    display: block;
+    list-style-type: none;
+    font-size: 24px;
+    
+}
+#menu li a{
+    color: #FFD43B;
+}
+nav a:hover i{
+    transition-duration: 0.5s;
+    color: #FFD43B;
+}
+.nav-link{
+    position: relative;
+}
+
+.i-text{
+    position: absolute;
+    width: 160px;
+    padding: 10px;
+    line-height: 10px;
+    display: none;
+    border-radius: 20px;
+    height: 30px;
+    z-index: 999999 !important;
+    text-align: center;
+    background-color: #FFD43B;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+}
+.nav-link:hover .i-text{
+    display: inline;
+    animation-name: menuTextAnimation;
+    animation-duration: 0.5s;
+}
+
+
+section#home, section#about, section#blog, section#contact, section#portfolyo{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width: 80%;
+}
+
+
+
+
+.right-column{
+    
+    -webkit-border-top-right-radius: 70px;
+    -webkit-border-bottom-right-radius: 70px;
+    -moz-border-radius-topright: 70px;
+    -moz-border-radius-bottomright: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+
+}
+.left-column{
+    background-color: #444444;
+
+}
+.left-column img{
+    display: block;
+}
+.my-photo{
+    border-radius: 80%;
+}
+
+.right-column{
+    background-color: #222222;
+}
+
+.about,.portfolyo{
+    overflow: scroll;
+    max-height: 610px;
+}
+.about h3,.portfolyo h3{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.about-text p{
+    word-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+.short-info{
+    word-wrap: break-word;
+}
+.card-title{
+    color: #FFD43B;
+}
+.contact-left{
+    background-color: #FFD43B;
+}
+.photo{
+    position: relative;
+    
+}
+.photo:hover .photo-desc{
+    display: block;
+}
+.photo-desc{
+    background-color: #aaa;
+    position: absolute;
+    opacity: 0.9;
+    display: none;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    transition-duration: 1s;
+
+}
+
+/* Container for skill bars */
+.container-skill {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 100%; background-color: #4CAF50; animation-name:animationSkillHtml; animation-duration: 0.5s;}
+.css {width: 100%; background-color: #2196F3; animation-name:animationSkillCss; animation-duration: 0.5s} 
+.js {width: 100%; background-color: #f44336; animation-name:animationSkillJs; animation-duration: 0.5s} 
+.net {width: 100%; background-color: #808080; animation-name:animationSkillNet; animation-duration: 0.5s} /* Dark Grey */
+.sql {width: 80%; background-color: #ee33ee; animation-name:animationSkillSql; animation-duration: 0.5s}
+.kotlin {width: 90%; background-color: #FFD43B;animation-name:animationSkillKotlin; animation-duration: 0.5s;}
+@keyframes menuTextAnimation{
+    0% {width: 0px;color: transparent;}
+  100% {width: 160px;color: #0D0D0D;}
+}
+
+.kirmizi-cizgi{
+    border: 1px solid red;
+}

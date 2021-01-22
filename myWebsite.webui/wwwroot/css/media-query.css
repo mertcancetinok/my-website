@@ -1,0 +1,41 @@
+@media only screen and (max-width:767px) {
+    section{
+        margin-top:60%;
+        word-wrap: break-word; 
+    }
+    section#contact{
+        margin-top: 100%;
+    }
+    .right-column{
+    
+        -webkit-border-top-right-radius: 0px;
+        -webkit-border-bottom-right-radius: 0px;
+        -moz-border-radius-topright: 0px;
+        -moz-border-radius-bottomright: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        
+    }
+    section#home, section#about, section#blog, section#contact, section#portfolyo{
+        width: 100%;
+    }
+    .home, .blog{
+        height: 610px;
+    }
+    header {
+        margin-top: 40%;   
+    }
+    
+    .home, .about, .contact, .portfolyo ,.blog{
+        margin-top: 30px;
+        
+    }
+    .navbar{
+        display: none !important;
+    }
+    .nav2{
+        display: block;
+    }
+    
+    
+}
