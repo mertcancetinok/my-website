@@ -49,9 +49,32 @@ namespace myWebsite.webui
 
             app.UseEndpoints(endpoints =>
             {
+                
+                endpoints.MapControllerRoute(
+                    name:"portfolyo",
+                    pattern:"portfolyo",
+                    defaults:new{controller="home",action="portfolyo"}
+                );
+                endpoints.MapControllerRoute(
+                    name:"blog",
+                    pattern:"blog",
+                    defaults:new{controller="home",action="blog"}
+                );
+                endpoints.MapControllerRoute(
+                    name:"contact",
+                    pattern:"contact",
+                    defaults:new{controller="home",action="contact"}
+                );
+                endpoints.MapControllerRoute(
+                    name:"about",
+                    pattern:"about",
+                    defaults:new{controller="home",action="about"}
+                    );
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}"
+                    
+                    );
             });
         }
     }

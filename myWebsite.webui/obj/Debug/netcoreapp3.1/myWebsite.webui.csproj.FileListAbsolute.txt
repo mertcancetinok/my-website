@@ -35,3 +35,6 @@
 /home/mertcan/RiderProjects/myWebsite/myWebsite.webui/obj/Debug/netcoreapp3.1/myWebsite.webui.genruntimeconfig.cache
 /home/mertcan/RiderProjects/myWebsite/myWebsite.webui/obj/Debug/netcoreapp3.1/myWebsite.webui.csproj.CopyComplete
 /home/mertcan/RiderProjects/myWebsite/myWebsite.webui/obj/Debug/netcoreapp3.1/Razor/Views/Home/About.cshtml.g.cs
+/home/mertcan/RiderProjects/myWebsite/myWebsite.webui/obj/Debug/netcoreapp3.1/Razor/Views/Home/Contact.cshtml.g.cs
+/home/mertcan/RiderProjects/myWebsite/myWebsite.webui/obj/Debug/netcoreapp3.1/Razor/Views/Home/Portfolyo.cshtml.g.cs
+/home/mertcan/RiderProjects/myWebsite/myWebsite.webui/obj/Debug/netcoreapp3.1/Razor/Views/Home/Blog.cshtml.g.cs
