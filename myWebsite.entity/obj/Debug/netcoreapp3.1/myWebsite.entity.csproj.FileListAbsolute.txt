@@ -1,0 +1,12 @@
+/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/bin/Debug/netcoreapp3.1/myWebsite.entity.deps.json
+/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/bin/Debug/netcoreapp3.1/myWebsite.entity.dll
+/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/bin/Debug/netcoreapp3.1/myWebsite.entity.pdb
+/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/obj/Debug/netcoreapp3.1/myWebsite.entity.csprojAssemblyReference.cache
+/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/obj/Debug/netcoreapp3.1/myWebsite.entity.AssemblyInfoInputs.cache
+/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/obj/Debug/netcoreapp3.1/myWebsite.entity.AssemblyInfo.cs
+/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/obj/Debug/netcoreapp3.1/myWebsite.entity.csproj.CoreCompileInputs.cache
+/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/obj/Debug/netcoreapp3.1/myWebsite.entity.dll
+/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/obj/Debug/netcoreapp3.1/myWebsite.entity.pdb
+/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/bin/Debug/netcoreapp3.1/myWebsite.entity.runtimeconfig.json
+/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/bin/Debug/netcoreapp3.1/myWebsite.entity.runtimeconfig.dev.json
+/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/obj/Debug/netcoreapp3.1/myWebsite.entity.genruntimeconfig.cache

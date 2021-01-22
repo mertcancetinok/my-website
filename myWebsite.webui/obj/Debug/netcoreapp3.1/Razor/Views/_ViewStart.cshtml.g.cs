@@ -26,8 +26,15 @@ using myWebsite.webui.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "/home/mertcan/RiderProjects/myWebsite/myWebsite.webui/Views/_ViewImports.cshtml"
+using myWebsite.entity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a6f0a25dd986824a6d78dc2e3c634fde45e29476", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"534b4b3f0265ffb84d7d3c8679efb8256cea2b01", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ae49c3081ebe56c88cb5dfb9782b8d5ffcdf1f64", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

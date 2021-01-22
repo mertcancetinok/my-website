@@ -4,14 +4,93 @@
     "/home/mertcan/RiderProjects/myWebsite/myWebsite.webui/myWebsite.webui.csproj": {}
   },
   "projects": {
-    "/home/mertcan/RiderProjects/myWebsite/myWebsite.webui/myWebsite.webui.csproj": {
+    "/home/mertcan/RiderProjects/myWebsite/myWebsite.data/myWebsite.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mertcan/RiderProjects/myWebsite/myWebsite.webui/myWebsite.webui.csproj",
-        "projectName": "myWebsite.webui",
-        "projectPath": "/home/mertcan/RiderProjects/myWebsite/myWebsite.webui/myWebsite.webui.csproj",
+        "projectUniqueName": "/home/mertcan/RiderProjects/myWebsite/myWebsite.data/myWebsite.data.csproj",
+        "projectName": "myWebsite.data",
+        "projectPath": "/home/mertcan/RiderProjects/myWebsite/myWebsite.data/myWebsite.data.csproj",
         "packagesPath": "/home/mertcan/.nuget/packages/",
-        "outputPath": "/home/mertcan/RiderProjects/myWebsite/myWebsite.webui/obj/",
+        "outputPath": "/home/mertcan/RiderProjects/myWebsite/myWebsite.data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/mertcan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/myWebsite.entity.csproj": {
+                "projectPath": "/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/myWebsite.entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/myWebsite.entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/myWebsite.entity.csproj",
+        "projectName": "myWebsite.entity",
+        "projectPath": "/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/myWebsite.entity.csproj",
+        "packagesPath": "/home/mertcan/.nuget/packages/",
+        "outputPath": "/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -38,6 +117,110 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mertcan/RiderProjects/myWebsite/myWebsite.webui/myWebsite.webui.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mertcan/RiderProjects/myWebsite/myWebsite.webui/myWebsite.webui.csproj",
+        "projectName": "myWebsite.webui",
+        "projectPath": "/home/mertcan/RiderProjects/myWebsite/myWebsite.webui/myWebsite.webui.csproj",
+        "packagesPath": "/home/mertcan/.nuget/packages/",
+        "outputPath": "/home/mertcan/RiderProjects/myWebsite/myWebsite.webui/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/mertcan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/mertcan/RiderProjects/myWebsite/myWebsite.data/myWebsite.data.csproj": {
+                "projectPath": "/home/mertcan/RiderProjects/myWebsite/myWebsite.data/myWebsite.data.csproj"
+              },
+              "/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/myWebsite.entity.csproj": {
+                "projectPath": "/home/mertcan/RiderProjects/myWebsite/myWebsite.entity/myWebsite.entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myWebsite.webui", "myWebsite.webui\myWebsite.webui.csproj", "{EDE30924-AAA9-480D-86E7-9510D5B32D9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myWebsite.data", "myWebsite.data\myWebsite.data.csproj", "{3B2B0538-B3CE-4984-8680-F71E574AB188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myWebsite.entity", "myWebsite.entity\myWebsite.entity.csproj", "{2DA8DCA6-B3BC-4CD6-AD76-5C600765EF2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{EDE30924-AAA9-480D-86E7-9510D5B32D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDE30924-AAA9-480D-86E7-9510D5B32D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDE30924-AAA9-480D-86E7-9510D5B32D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2B0538-B3CE-4984-8680-F71E574AB188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2B0538-B3CE-4984-8680-F71E574AB188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2B0538-B3CE-4984-8680-F71E574AB188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2B0538-B3CE-4984-8680-F71E574AB188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA8DCA6-B3BC-4CD6-AD76-5C600765EF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA8DCA6-B3BC-4CD6-AD76-5C600765EF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA8DCA6-B3BC-4CD6-AD76-5C600765EF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA8DCA6-B3BC-4CD6-AD76-5C600765EF2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

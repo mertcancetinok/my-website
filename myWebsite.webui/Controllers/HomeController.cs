@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using myWebsite.entity;
 using myWebsite.webui.Models;
 
 namespace myWebsite.webui.Controllers
@@ -13,14 +15,15 @@ namespace myWebsite.webui.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
+        
         public IActionResult Index()
         {
-            return View();
+            var user = new User()
+            {
+                 ShortAbout = "I'm a junior developer"
+             };
+            
+            return View(user);
         }
 
         public IActionResult About()

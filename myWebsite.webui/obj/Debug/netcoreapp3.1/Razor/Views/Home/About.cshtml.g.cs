@@ -26,8 +26,15 @@ using myWebsite.webui.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "/home/mertcan/RiderProjects/myWebsite/myWebsite.webui/Views/_ViewImports.cshtml"
+using myWebsite.entity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"629cf1c3c0e3aad29a71b68255eff096e2a81a16", @"/Views/Home/About.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"534b4b3f0265ffb84d7d3c8679efb8256cea2b01", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ae49c3081ebe56c88cb5dfb9782b8d5ffcdf1f64", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_About : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("card-img-top"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -93,7 +100,7 @@ using myWebsite.webui.Models;
 
   <div class=""row p-3");
             WriteLiteral(" mt-2\">\n    <div class=\"col-md-12 \">\n      <h3>Neler</h3>\n      <h3 style=\"color: #FFD43B;\">yapıyorum ?</h3>\n    </div>\n  </div>\n  <div class=\"row p-3 mt-2\">\n    <div class=\"col-md-6 col-sm-12\">\n      ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "629cf1c3c0e3aad29a71b68255eff096e2a81a167337", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "629cf1c3c0e3aad29a71b68255eff096e2a81a167515", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -118,7 +125,7 @@ using myWebsite.webui.Models;
     </div>
     <div class=""col-md-6 col-sm-12"">
       ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "629cf1c3c0e3aad29a71b68255eff096e2a81a168985", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "629cf1c3c0e3aad29a71b68255eff096e2a81a169163", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -143,7 +150,7 @@ using myWebsite.webui.Models;
     </div>
     <div class=""col-md-6 col-sm-12"">
       ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "629cf1c3c0e3aad29a71b68255eff096e2a81a1610629", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "629cf1c3c0e3aad29a71b68255eff096e2a81a1610807", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -168,7 +175,7 @@ using myWebsite.webui.Models;
     </div>
     <div class=""col-md-6 col-sm-12"">
       ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "629cf1c3c0e3aad29a71b68255eff096e2a81a1612261", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "629cf1c3c0e3aad29a71b68255eff096e2a81a1612439", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
