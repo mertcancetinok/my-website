@@ -6,6 +6,6 @@ namespace myWebsite.entity
         public string FullName { get; set; }
         public string JobTitle { get; set; }
         public string ShortAbout { get; set; }
-        
+        public UserDetail Details { get; set; }
     }
 }

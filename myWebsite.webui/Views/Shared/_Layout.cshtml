@@ -1,20 +1,24 @@
-﻿@{
-  var user = new User()
-  {
-    FullName = "Mert Can Çetinok",
-    JobTitle = "Junior Developer",
-  };
-  List<SocialMedia> socialMediae = new List<SocialMedia>()
-  {
-    new SocialMedia() {SocialName = "facebook", Url = "https://www.facebook.com/mertcan.cetinok"},
-    new SocialMedia() {SocialName = "github", Url = "https://www.github.com/mertcancetinok"},
-    new SocialMedia() {SocialName = "instagram", Url = "https://www.instagram.com/mertcancetinok"},
-    new SocialMedia() {SocialName = "twitter", Url = "https://www.twitter.com/mertcancetinoks"},
-  };
+﻿@using myWebsite.data.Abstract
+@using myWebsite.data.Concrete.EfCore
+@{
+  IUserRepository userRepository = new EfCoreUserRepository();
+  ISocialRepository socialRepository = new EfCoreSocialRepository();
+  // var user = new User()
+  // {
+  //   FullName = "Mert Can Çetinok",
+  //   JobTitle = "Junior Developer",
+  // };
+  // List<SocialMedia> socialMediae = new List<SocialMedia>()
+  // {
+  //   new SocialMedia() {SocialName = "facebook", Url = "https://www.facebook.com/mertcan.cetinok"},
+  //   new SocialMedia() {SocialName = "github", Url = "https://www.github.com/mertcancetinok"},
+  //   new SocialMedia() {SocialName = "instagram", Url = "https://www.instagram.com/mertcancetinok"},
+  //   new SocialMedia() {SocialName = "twitter", Url = "https://www.twitter.com/mertcancetinoks"},
+  // };
   UserSocialView userSocialView = new UserSocialView()
   {
-    user = user,
-    SocialMediae = socialMediae
+    user = userRepository.getUser(),
+    SocialMediae = socialRepository.GetAll()
   };
 }
 <!DOCTYPE html>

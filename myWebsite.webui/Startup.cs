@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using myWebsite.data.Abstract;
+using myWebsite.data.Concrete.EfCore;
 
 namespace myWebsite.webui
 {
@@ -24,6 +26,9 @@ namespace myWebsite.webui
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddScoped<IUserRepository, EfCoreUserRepository>();
+            services.AddScoped<IJobRepository, EfCoreJobRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

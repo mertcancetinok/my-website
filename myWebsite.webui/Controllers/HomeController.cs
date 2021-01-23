@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using myWebsite.data.Abstract;
 using myWebsite.entity;
 using myWebsite.webui.Models;
 
@@ -14,21 +15,34 @@ namespace myWebsite.webui.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private IUserRepository _userRepository;
+        private IJobRepository _jobRepository;
 
+        public HomeController(IUserRepository userRepository,IJobRepository jobRepository)
+        {
+            this._userRepository = userRepository;
+            this._jobRepository = jobRepository;
+        }
         
         public IActionResult Index()
         {
-            var user = new User()
-            {
-                 ShortAbout = "I'm a junior developer"
-             };
+            ;
+            // var user = new User()
+            // {
+            //      ShortAbout = "I'm a junior developer"
+            //  };
             
-            return View(user);
+            return View(_userRepository.getUser());
         }
 
         public IActionResult About()
         {
-            return View();
+            UserDetailsJobsView userDetailsJobsView = new UserDetailsJobsView()
+            {
+                UserDetail = _userRepository.GetUserWithDetails(),
+                Jobs = _jobRepository.GetAll()
+            };
+            return View(userDetailsJobsView);
         }
 
         public IActionResult Contact()
