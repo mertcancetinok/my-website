@@ -1,0 +1,15 @@
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.data\bin\Release\netcoreapp3.1\myWebsite.data.deps.json
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.data\bin\Release\netcoreapp3.1\myWebsite.data.runtimeconfig.json
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.data\bin\Release\netcoreapp3.1\myWebsite.data.runtimeconfig.dev.json
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.data\bin\Release\netcoreapp3.1\myWebsite.data.dll
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.data\bin\Release\netcoreapp3.1\myWebsite.data.pdb
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.data\bin\Release\netcoreapp3.1\myWebsite.entity.dll
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.data\bin\Release\netcoreapp3.1\myWebsite.entity.pdb
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.data\obj\Release\netcoreapp3.1\myWebsite.data.csprojAssemblyReference.cache
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.data\obj\Release\netcoreapp3.1\myWebsite.data.AssemblyInfoInputs.cache
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.data\obj\Release\netcoreapp3.1\myWebsite.data.AssemblyInfo.cs
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.data\obj\Release\netcoreapp3.1\myWebsite.data.csproj.CoreCompileInputs.cache
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.data\obj\Release\netcoreapp3.1\myWebsite.data.csproj.CopyComplete
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.data\obj\Release\netcoreapp3.1\myWebsite.data.dll
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.data\obj\Release\netcoreapp3.1\myWebsite.data.pdb
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.data\obj\Release\netcoreapp3.1\myWebsite.data.genruntimeconfig.cache

@@ -1,0 +1,54 @@
+@{
+    ViewData["pageName"] = "contact";
+}
+@model ContactModel
+<div class="row">
+    <div class="col-md-3 contact-left p-3">
+        <h3 class="mt-5 text-center">Benim ile iletişime geçin</h3>
+    </div>
+    <div class="col-md-9 ">
+        <form class="mt-5" asp-controller="Home" asp-action="Contact" method="post">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label asp-for="Name"></label>
+                    <input class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="Surname"></label>
+                    <input class="form-control" asp-for="Surname">
+                    <span asp-validation-for="Surname" class="text-danger"></span>
+                    </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input class="form-control" asp-for="Email">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+            <label asp-for="Subject"></label>
+            <textarea class="form-control" asp-for="Subject" rows="8"></textarea>
+            <span asp-validation-for="Subject" class="text-danger"></span>
+                </div>
+            <button type="submit" class="btn btn-dark">Gönder</button>
+            
+        </form>
+        @if (TempData["message"] != null)
+        {
+            var message = JsonConvert.DeserializeObject<AlertMessage>(TempData["message"] as String);
+            <div>
+                
+                <div class="col-md-12 mt-1">
+                    <div class="alert alert-@message.AlertType">
+                        @message.Message
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+@section CustomJs{ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js" integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js" integrity="sha512-o6XqxgrUsKmchwy9G5VRNWSSxTS4Urr4loO6/0hYdpWmFUfHqGzawGxeQGMDqYzxjY9sbktPbNlkIQJWagVZQg==" crossorigin="anonymous"></script>
+    
+}

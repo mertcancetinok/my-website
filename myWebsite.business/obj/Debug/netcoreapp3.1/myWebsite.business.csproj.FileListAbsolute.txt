@@ -1,0 +1,14 @@
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.business\obj\Debug\netcoreapp3.1\myWebsite.business.csprojAssemblyReference.cache
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.business\obj\Debug\netcoreapp3.1\myWebsite.business.AssemblyInfoInputs.cache
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.business\obj\Debug\netcoreapp3.1\myWebsite.business.AssemblyInfo.cs
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.business\obj\Debug\netcoreapp3.1\myWebsite.business.csproj.CoreCompileInputs.cache
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.business\bin\Debug\netcoreapp3.1\myWebsite.business.deps.json
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.business\bin\Debug\netcoreapp3.1\myWebsite.business.dll
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.business\bin\Debug\netcoreapp3.1\myWebsite.business.pdb
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.business\bin\Debug\netcoreapp3.1\myWebsite.data.dll
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.business\bin\Debug\netcoreapp3.1\myWebsite.entity.dll
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.business\bin\Debug\netcoreapp3.1\myWebsite.data.pdb
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.business\bin\Debug\netcoreapp3.1\myWebsite.entity.pdb
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.business\obj\Debug\netcoreapp3.1\myWebsite.business.csproj.CopyComplete
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.business\obj\Debug\netcoreapp3.1\myWebsite.business.dll
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.business\obj\Debug\netcoreapp3.1\myWebsite.business.pdb

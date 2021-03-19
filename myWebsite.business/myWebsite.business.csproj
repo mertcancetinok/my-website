@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\myWebsite.data\myWebsite.data.csproj" />
+    <ProjectReference Include="..\myWebsite.entity\myWebsite.entity.csproj" />
+  </ItemGroup>
+
+</Project>

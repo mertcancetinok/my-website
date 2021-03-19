@@ -1,0 +1,67 @@
+@model UserDetailsJobsSkillView
+@{
+  ViewData["pageName"] = "about";
+}
+<div class="container">
+  <div class="row p-3 mt-2">
+    <div class="col-md-12 ">
+      <h3>Hakkımda</h3>
+      <h3 style="color: #FFD43B;">biraz bilgi</h3>
+    </div>
+  </div>
+
+  <div class="row p-3 mt-2">
+    <div class="col-md-8 about-text">
+      <p>@Model.UserDetail.LongDescription</p>
+    </div>
+    <div class="col-md-4 short-info">
+      <p><span style="color: #FFD43B;">Yaş</span><span class="ml-2">@Model.UserDetail.Age</span></p>
+      <p><span style="color: #FFD43B;">Ülke</span><span class="ml-2">@Model.UserDetail.Country</span></p>
+      <p><span style="color: #FFD43B;">Adres</span><span class="ml-2">@Model.UserDetail.Address</span></p>
+      <p><span style="color: #FFD43B;">email</span><span class="ml-2">@Model.UserDetail.Email</span></p>
+      <p><span style="color: #FFD43B;">tel</span><span class="ml-2">@Model.UserDetail.PhoneNumber</span></p>
+    </div>
+  </div>
+
+  <div class="row p-3 mt-2">
+    <div class="col-md-12 ">
+      <h3>Neler</h3>
+      <h3 style="color: #FFD43B;">yapıyorum ?</h3>
+    </div>
+  </div>
+  <div class="row p-3 mt-2">
+    
+    @foreach (var job in Model.Jobs)
+    {
+      <div class="col-md-6 col-sm-12">
+        <img class="card-img-top" src="~/img/@job.ImageUrl" alt="Card image cap" width="128px" height="128px">
+        <div class="card-body">
+          <h5 class="card-title">@job.JobTitle</h5>
+          <p class="card-text">@job.JobDescription</p>
+        </div>
+      </div>  
+    }
+    
+   
+
+  </div>
+  <div class="row p-3 mt-2">
+    <div class="col-md-12 ">
+      <h3>Kullandığım</h3>
+      <h3 style="color: #FFD43B;">teknolojiler</h3>
+    </div>
+  </div>
+  <div class="row p-3 mt-2">
+    <div class="col-md-12 bar">
+      @foreach (var skill in @Model.Skills)
+      {
+        <p>@skill.Name</p>
+        <div class="container-skill">
+          <div class="skills @skill.Name.ToLower()" style="background-color:@skill.ColorName">@skill.Percent%</div>
+        </div>  
+      }
+
+
+    </div>
+  </div>
+</div>

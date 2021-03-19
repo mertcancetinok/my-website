@@ -1,0 +1,12 @@
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.entity\bin\Release\netcoreapp3.1\myWebsite.entity.deps.json
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.entity\bin\Release\netcoreapp3.1\myWebsite.entity.runtimeconfig.json
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.entity\bin\Release\netcoreapp3.1\myWebsite.entity.runtimeconfig.dev.json
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.entity\bin\Release\netcoreapp3.1\myWebsite.entity.dll
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.entity\bin\Release\netcoreapp3.1\myWebsite.entity.pdb
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.entity\obj\Release\netcoreapp3.1\myWebsite.entity.csprojAssemblyReference.cache
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.entity\obj\Release\netcoreapp3.1\myWebsite.entity.AssemblyInfoInputs.cache
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.entity\obj\Release\netcoreapp3.1\myWebsite.entity.AssemblyInfo.cs
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.entity\obj\Release\netcoreapp3.1\myWebsite.entity.csproj.CoreCompileInputs.cache
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.entity\obj\Release\netcoreapp3.1\myWebsite.entity.dll
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.entity\obj\Release\netcoreapp3.1\myWebsite.entity.pdb
+C:\Users\Berkcan\Desktop\my-website-main\myWebsite.entity\obj\Release\netcoreapp3.1\myWebsite.entity.genruntimeconfig.cache
